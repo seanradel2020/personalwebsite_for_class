@@ -1,0 +1,45 @@
+//Citrus Styles Starter
+
+/*typography*/
+$primary-font-stack: Helvetica, sans-serif;
+$seondary-font-stack: "Times New Roman", serif;
+$teriary-font-stack: Palatino, serif;
+$font-base-size: 15px;
+$font-small-size: 12px;
+$font-large-size: 18px;
+$font-super-size: 36px;
+
+/*colors*/
+// Color Palette for Color Blind Accessibility
+$primary: #0074d9; // A vibrant blue for primary actions and links
+$secondary: #c51f16; // A strong red for error messages or alerts
+$teriary: #2ecc40; // A bright green for success or positive messages
+$strongColor: #ff851b; // A bold orange for important elements
+$darkHighlight: #0a437c; // A dark blue for backgrounds or text contrasts
+$highlight: #7fdbff; // A light blue for subtle highlights
+$lightHighlight: #f1f1f1; // A neutral gray for backgrounds or borders
+$accent: #ffdc00; // A vivid yellow for accents or call-to-action
+$background: #ffffff; // A clean white background
+
+$lineStyle: solid;
+
+$minorHeadings: #4addd4;
+$majorHeadings: $strongColor;
+$lesserHeadings: $secondary;
+
+/*Structural sizing*/
+$pageWidth: 1000px;
+$halfWidthColumn: calc($pageWidth/2);
+$thirdWidthCol: calc($pageWidth/3);
+$quarterWidthCol: calc($pageWidth/4.5);
+$threeQuarterCol: calc($pageWidth * 0.75);
+$marginFloat: 0 auto;
+
+
+
+$buttonBackgroundColor: #f24e77; // Change this to your desired button color
+$buttonTextColor: #ffffff; // Change this to your desired text color
+$buttonHoverColor: #7092b7; // Change this to the color when hovered
+$buttonActiveColor: #1b3045; // Change this to the color when clicked
+
+/*mixins*/

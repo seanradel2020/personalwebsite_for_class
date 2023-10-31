@@ -1,0 +1,176 @@
+article, aside, footer, header, nav, section, body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  float: right;
+}
+
+body {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #000;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#133869), to(#ffffff));
+  background-image: linear-gradient(#133869, #ffffff);
+}
+
+#container {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+}
+
+#maincontent {
+  margin-top: 80px;
+  padding: 10px 0;
+}
+
+h1, h2 {
+  color: #000;
+}
+
+ul, h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+#about {
+  background-color: #c7e0fd;
+  border: 5px solid #0b385f;
+  border-radius: 8px;
+}
+
+#about label1 {
+  font-size: 20px;
+}
+
+#about text1 {
+  font-size: 18px;
+}
+
+#vision {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: #c7e0fd;
+  border-radius: 8px;
+  padding: 20px 40px 40px 40px;
+}
+
+#vision img {
+  float: inline-end;
+}
+
+#vision h1 {
+  color: #133869;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+#vision p {
+  font-size: 18px;
+  color: #133869;
+}
+
+#vision gr {
+  color: #133869;
+}
+
+#vision PaperTitle {
+  color: #133869;
+  font-size: 40px;
+}
+
+#vision authors {
+  color: gray;
+  font-size: 14px;
+}
+
+#vision abstract1 {
+  color: black;
+  font-size: 20px;
+}
+
+#vision abstract {
+  color: #133869;
+  font-size: 18px;
+}
+
+#vision a {
+  font-size: 14px;
+}
+
+nav ul {
+  list-style: none;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  width: 140px;
+  text-align: center;
+  text-decoration: none;
+  color: #c7e0fd;
+  margin: 5px 0;
+}
+
+nav a:hover, nav a:active, nav a:focus {
+  background-color: #133869;
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.pod {
+  background-color: #c7e0fd;
+  padding: 10px 10px 10px 10px;
+  width: 250px;
+  float: left;
+  text-align: center;
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.pod .podContent {
+  margin-top: 5px;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+}
+
+#news .pod {
+  margin-top: 12px;
+  overflow: auto;
+}
+
+.pod blogtitle {
+  font-size: 18px;
+  color: #133869;
+  -webkit-text-decoration: 0;
+          text-decoration: 0;
+}
+
+.pod:hover, .pod:active, .pod:focus {
+  -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+          box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+footer {
+  clear: both;
+  padding: 20px;
+  color: #c7e0fd;
+}
+
+footer p {
+  margin: 0 0 5px 0;
+  color: black;
+}
+/*# sourceMappingURL=citrus.css.map */

@@ -1,0 +1,56 @@
+article, aside, footer, header, nav, section, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #000;
+  background-color: #66B034;
+}
+
+#container {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+header {
+  height: 200px;
+}
+
+#maincontent {
+  margin-top: 80px;
+  padding: 10px 0;
+}
+
+h1, h2 {
+  color: #000;
+}
+
+ul, h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+nav li {
+  float: left;
+}
+nav a {
+  display: block;
+  width: 140px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #618A37;
+  margin: 5px 0;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}/*# sourceMappingURL=citrus.css.map */

@@ -1,0 +1,229 @@
+//Citrus Citrus.scss starter
+
+$primary-color: #133869;
+$secondary-color: #ffffff;
+$tertiary-color: rgb(199, 224, 253);
+$darktext-color: #000;
+$background-light:#CCC;
+$font-link-followed:rgba(255, 255, 255, 0.2);
+$font-link-focus:rgba(255, 255, 255, 0.4);
+
+$font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+$secondary-font-famiy:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+$minmargin: 0;
+$minpadding:0;
+$floatmargin:0 auto;
+
+$font-small: 14px;
+$font-medium: 18px;
+$font-large:20px;
+$font-super:40px;
+
+article, aside, footer, header, nav, section, body{
+    margin: $minmargin;
+    padding: $minpadding;
+}
+
+section{
+    float:right;
+}
+
+body{
+    font-family: $font-family;
+    color: $darktext-color;
+    //background-color: $primary-color;
+    background-image: linear-gradient($primary-color, $secondary-color);
+}
+#container{
+    max-width: 840px;
+    margin: $floatmargin;
+}
+header{ 
+    height: 100px;
+    //background-color: $tertiary-color;
+}
+#maincontent{
+    margin-top: 80px;
+    padding: 10px 0;
+}
+
+h1, h2{
+    color:$darktext-color;
+}
+ul, h1, h2{
+    margin: $minmargin;
+    padding: $minpadding;
+}
+
+//mixin
+@mixin navMenu{
+    
+    ul{
+        list-style: none;
+        margin-bottom: 15px;
+        font-weight: bold;
+        font-size: $font-large;
+    }
+    li{
+        float:left;
+    }
+    a{
+        display: block;
+        width: 140px;
+        //padding:10px;
+        text-align: center;
+        text-decoration: none;
+        color: $tertiary-color;
+        //border: 1px solid $secondary-color;
+        margin: 5px 0;
+        //border-radius: 8px;
+        
+
+        &:hover, &:active, &:focus{
+        background-color: $primary-color;
+       
+        box-shadow: 1px 1px 3px rgba(0,0,0,.80);
+        text-shadow: 1px 1px 3px rgba(0,0,0,.80);
+           
+        }
+        &:link, &:visited{
+            //background-color: $font-link-followed;
+        }
+        
+    }
+}
+
+
+#about{
+
+    background-color: $tertiary-color;
+    border: 5px solid #0b385f;
+    border-radius: 8px;
+
+    label1{
+        font-size: $font-large;
+    }
+    text1{
+        font-size: $font-medium;
+    }
+
+}
+
+#vision{
+    font-family: $secondary-font-famiy;
+    font-size: $font-super;
+    font-weight: bold;
+    //line-height: 1.2;
+    //
+    //background-image: url("../../images/headradel.jpg");
+    //background-repeat: no-repeat;
+    background-color: $tertiary-color;
+    border-radius: 8px;
+    //height: 297px;
+    //width: 409px;
+    padding: 20px 40px 40px 40px;
+    img{
+        float: inline-end;
+    }
+
+    h1{
+        color: $primary-color;
+        text-shadow: 1px 1px 3px rgba(0,0,0,.80);
+    }
+    p{
+        font-size: $font-medium;
+        color: $primary-color;
+    }
+    gr{
+        color: $primary-color;
+    }
+    PaperTitle{
+        color: $primary-color;
+        font-size: $font-super;
+    }
+    authors{
+        color: gray;
+        font-size: $font-small;
+ 
+    }
+    abstract1{
+        color: black;
+        font-size: $font-large;
+        
+    }
+   
+    abstract{
+        color: $primary-color;
+        font-size: $font-medium;
+    }
+    a{
+        font-size: $font-small;
+    }
+   // margin-bottom: 20px;
+
+}
+
+@mixin pod{
+    background-color: $tertiary-color;
+    padding: 10px 10px 10px 10px;
+    width: 250px;
+    float: left;
+    text-align: center;
+    margin: 5px;
+    border-radius: 15px;
+    
+
+    .podContent{
+        
+        margin-top: 5px;
+        width: 250px;
+        height: 250px;
+        //background-color: yellow;
+        overflow: hidden;
+    }
+
+    #news & {
+        margin-top: 12px;
+        overflow: auto;
+    }
+    blogtitle{
+        font-size: $font-medium;
+        color: $primary-color;
+        text-decoration: 0;
+        
+
+    }
+   
+    &:hover, &:active, &:focus{
+       // background-color: $primary-color;
+      
+        box-shadow: 1px 1px 3px rgba(0,0,0,.80);
+        //text-shadow: 1px 1px 3px rgba(0,0,0,.80);
+           
+        }
+   
+
+
+
+}
+
+nav{
+    @include navMenu();
+}
+.pod{
+    @include pod;
+}
+footer{
+    clear: both;
+    padding: 20px; 
+    color: $tertiary-color;
+    p{
+        margin: 0 0 5px 0;
+        color: black;
+    }
+}
+
+
+//watch the compile live
+//https://www.sassmeister.com/
+
